@@ -1,37 +1,40 @@
-📝 Text Language Detection
-This project is a simple Natural Language Processing (NLP) application that can detect the language of a given text input. It uses machine learning techniques such as TF-IDF vectorization and a classification model (Naive Bayes / Logistic Regression) to classify text into different languages.
+# 🌐 Text Language Detection  
 
-🚀 Features
-Detects the language of a given text input
+A simple **NLP project** that detects the language of a given text using **Python** and **scikit-learn**. The model uses **TF-IDF vectorization** with a **Naive Bayes classifier** to classify text into multiple languages such as English, French, Spanish, and Hindi.  
 
-Supports multiple languages (English, French, Spanish, Hindi, etc.)
+---
 
-Beginner-friendly implementation in Python
+## 🚀 Features  
+- Detects the language of user input text  
+- Supports multiple languages with sample data  
+- Beginner-friendly, written in Python  
+- Can be extended with more data and languages  
 
-Interactive: user can enter text and get instant predictions
+---
 
-🛠️ Tech Stack
-Python
+## 🛠️ Tech Stack  
+- **Python 3**  
+- **Scikit-learn**  
+- **NumPy / Pandas**  
 
-Scikit-learn (for ML model & vectorization)
+---
 
-Numpy / Pandas (for data handling)
+## 📂 Project Structure  
 
-📂 Project Structure
-bash
-Copy
-Edit
-├── language_detection.py   # Main script
-├── requirements.txt        # Dependencies
-└── README.md               # Project documentation
-▶️ How to Run
-Clone the repository:
+├── language_detection.py # Main script
+├── requirements.txt # Dependencies
+└── README.md # Project documentation
 
-bash
-Copy
-Edit
+
+---
+
+## ▶️ How to Run  
+
+Clone the repository:  
+```bash
 git clone https://github.com/your-username/text-language-detection.git
 cd text-language-detection
+
 Install dependencies:
 
 bash
@@ -45,7 +48,7 @@ Copy
 Edit
 python language_detection.py
 🧪 Example Usage
-vbnet
+bash
 Copy
 Edit
 Input:  "Bonjour, je m'appelle Suriya"
@@ -53,3 +56,5 @@ Output: Detected Language: French
 
 Input:  "Hola, soy estudiante"
 Output: Detected Language: Spanish
+📜 License
+This project is open-source and available under the MIT License.
