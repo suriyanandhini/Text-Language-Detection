@@ -37,18 +37,19 @@ cd text-language-detection
 
 Install dependencies:
 
-bash
+```bash
 Copy
 Edit
 pip install -r requirements.txt
 Run the project:
 
-bash
+```bash
 Copy
 Edit
 python language_detection.py
 🧪 Example Usage
-bash
+
+```bash
 Copy
 Edit
 Input:  "Bonjour, je m'appelle Suriya"
